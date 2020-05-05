@@ -52,3 +52,9 @@ nnoremap <leader>w <C-w>v<C-w>l
 
 " Show buffer list
 nnoremap <leader>b :ls<CR>:buffer<Space>
+nmap <silent> <leader>d <Plug>DashSearch
+
+" trigger snippet expansion
+imap <expr><tab> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : pumvisible() ? "\<c-j>" : "\<tab>"
+smap <expr><tab> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
+

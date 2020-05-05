@@ -1,15 +1,25 @@
-" Load key bindings
-runtime keybindings.vim
+"dein Scripts-----------------------------
+if &compatible
+  set nocompatible               " Be iMproved
+endif
 
-" Load plugins
+" Required:
+set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
+"
+" Required:
+filetype plugin indent on
+syntax enable
+
 runtime plugins.vim
 
-" Load settings
+if dein#check_install()
+  call dein#install()
+endif
+
+"End dein Scripts-------------------------
+"
+
+runtime core.vim
+runtime plugins.vim
+runtime mappings.vim
 runtime settings.vim
-
-" Run file types
-runtime ftypes.vim
-
-" Load utilities
-runtime utils.vim
-
