@@ -1,0 +1,8 @@
+{
+  "tsserver.enable": true,
+  "tsserver.implicitProjectConfig.experimentalDecorators": true,
+  "yaml.schemaStore.enable": true,
+  "yaml.schemas": {
+    "http://json.schemastore.org/gitlab-ci": "/.gitlab-ci.yml"
+  }
+}

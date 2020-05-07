@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/Users/arcade/.config/coc/extensions'
+let g:netrw_dirhist_2='/Users/arcade/.local/share/nvim/plugged/coc.nvim/node_modules/clipboardy'
+let g:netrw_dirhist_3='/Users/arcade/Documents/playground/everymatrix/project-norway/players-api/.git'
+let g:netrw_dirhist_4='/Users/arcade/Documents/playground/everymatrix/project-norway/casino-api'
+let g:netrw_dirhist_5='/Users/arcade/Documents/playground/everymatrix/project-norway/casino-api/chart'
+let g:netrw_dirhist_6='/Users/arcade/Documents/playground/everymatrix/project-norway/casino-api'
+let g:netrw_dirhist_7='/Users/arcade/Documents/playground/everymatrix/project-norway/casino-api/chart'
+let g:netrw_dirhist_8='/Users/arcade/Documents/playground/everymatrix/project-norway/casino-api/chart/templates'

@@ -3,18 +3,17 @@ if &compatible
   set nocompatible               " Be iMproved
 endif
 
-" Required:
-set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
-"
-" Required:
-filetype plugin indent on
-syntax enable
+"" Required:
+"set runtimepath+=~/.cache/dein/repos/github.com/Shougo/dein.vim
+""
+"" Required:
+"filetype plugin indent on
 
 runtime plugins.vim
 
-if dein#check_install()
-  call dein#install()
-endif
+" if dein#check_install()
+"   call dein#install()
+" endif
 
 "End dein Scripts-------------------------
 "
