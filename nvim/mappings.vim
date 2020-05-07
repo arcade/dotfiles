@@ -1,4 +1,5 @@
-" disable arrow keys
+"------------------------ [General mappings] ---------------------
+"disable arrow keys
 nnoremap <up> <nop>
 nnoremap <down> <nop>
 nnoremap <left> <nop>
@@ -7,10 +8,6 @@ inoremap <left> <nop>
 inoremap <right> <nop>
 nnoremap j gj
 nnoremap k gk
-
-" Map ; to : to avoid mistakes
-nnoremap ; :
-nmap <silent> ,/ :nohlsearch<CR>
 
 " Map ; to : to avoid mistakes
 nnoremap ; :
@@ -43,11 +40,9 @@ nnoremap <leader>l :source ~/.config/nvim/init.vim<CR>
 
 " Show buffer list
 nnoremap <leader>b :ls<CR>:buffer<Space>
-nmap <silent> <leader>d <Plug>DashSearch
 
-" trigger snippet expansion
-imap <expr><tab> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : pumvisible() ? "\<c-j>" : "\<tab>"
-smap <expr><tab> neosnippet#expandable_or_jumpable() ? "\<Plug>(neosnippet_expand_or_jump)" : "\<tab>"
+" Open dash search
+nmap <silent> <leader>d <Plug>DashSearch
 
 "------------------------ [Coc mappings] ---------------------
 
